@@ -78,7 +78,7 @@ class _OtpScreenState extends State<OtpScreen> {
                 autofocus: true,
                 borderRadius: BorderRadius.circular(sWidth * 0.02),
                 keyboardType: TextInputType.number,
-                autoHideKeyboard: false,
+                autoHideKeyboard: true,
                 fieldBackgroundColor: appWhiteColor,
                 textStyle: const TextStyle(fontSize: 18),
                 onComplete: (pin) {},
